@@ -2,7 +2,7 @@
 <div class="page-main-header">
     <div class="main-header-right row">
         <div class="main-header-left d-lg-none">
-            <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="assets/images/dashboard/multikart-logo.png" alt=""></a></div>
+            <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="{{ asset("back/assets/images/multikart-logo.png") }}" alt=""></a></div>
         </div>
         <div class="mobile-sidebar">
             <div class="media-body text-right switch-sm">
@@ -90,7 +90,7 @@
                             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                         </svg><span class="dot"></span></a></li>
                 <li class="onhover-dropdown">
-                    <div class="media align-items-center"><img class="align-self-center pull-right img-50 rounded-circle blur-up lazyloaded" src="assets/images/dashboard/man.png" alt="header-user">
+                    <div class="media align-items-center"><img class="align-self-center pull-right img-50 rounded-circle blur-up lazyloaded" src="{{ asset("back/assets/images/man.png") }}" alt="header-user">
                         <div class="dotted-animation"><span class="animate-circle"></span><span class="main-circle"></span></div>
                     </div>
                     <ul class="profile-dropdown onhover-show-div p-20 profile-dropdown-hover">
