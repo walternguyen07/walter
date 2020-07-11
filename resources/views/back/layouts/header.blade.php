@@ -34,6 +34,8 @@
 
     <!-- App css-->
     <link rel="stylesheet" type="text/css" href="{{ asset("back/assets/css/admin.css") }}">
+    @yield('logincss')
+
     <style type="text/css">
         .jqstooltip {
             position: absolute;
