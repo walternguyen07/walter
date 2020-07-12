@@ -2770,8 +2770,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/blog/3.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/3.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/blog/3.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/3.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2792,8 +2792,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/blog/4.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/4.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/blog/4.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/2.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2814,8 +2814,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/blog/5.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/5.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/blog/5.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/5.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2836,8 +2836,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="0">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/blog/1.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/1.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/blog/1.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/1.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2858,8 +2858,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="0">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/blog/2.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/2.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/blog/2.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/2.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2880,8 +2880,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="0">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/blog/3.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/3.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/blog/3.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/3.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2902,8 +2902,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/blog/4.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/4.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/blog/4.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/4.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2924,8 +2924,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/blog/5.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/5.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/blog/5.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/5.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2946,8 +2946,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/blog/1.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/1.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/blog/1.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/1.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2968,8 +2968,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/blog/2.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/2.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/blog/2.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/2.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -2990,8 +2990,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/blog/3.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/3.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/blog/3.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/3.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -3012,8 +3012,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/blog/4.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/4.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/blog/4.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/4.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
@@ -3034,8 +3034,8 @@
                                         <div class="col-md-12" style="width: 100%; display: inline-block;">
                                             <a href="#" tabindex="-1">
                                                 <div class="classic-effect">
-                                                    <div class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/blog/5.jpg&quot;); background-size: cover; background-position: center center; display: block;">
-                                                        <img src="assets/images/blog/5.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
+                                                    <div class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/blog/5.jpg") }}); background-size: cover; background-position: center center; display: block;">
+                                                        <img src="{{ asset("front/assets/images/blog/5.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;">
                                                     </div>
                                                     <span></span>
                                                 </div>
