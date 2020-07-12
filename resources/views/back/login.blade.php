@@ -142,8 +142,7 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
-                                                        <h3>Welcome to Multikart</h3>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                                        <h3>Welcome to Walter System</h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -152,8 +151,7 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
-                                                        <h3>Welcome to Multikart</h3>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                                        <h3>Welcome to Walter System</h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -162,8 +160,7 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
-                                                        <h3>Welcome to Multikart</h3>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                                        <h3>Welcome to Walter System</h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -172,8 +169,7 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
-                                                        <h3>Welcome to Multikart</h3>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                                        <h3>Welcome to Walter System</h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -182,8 +178,8 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
-                                                        <h3>Welcome to Multikart</h3>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                                        <h3>Welcome to Walter System</h3>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -192,8 +188,7 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
-                                                        <h3>Welcome to Multikart</h3>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                                        <h3>Welcome to Walter System</h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -202,8 +197,7 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
-                                                        <h3>Welcome to Multikart</h3>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                                        <h3>Welcome to Walter System</h3>
                                                     </div>
                                                 </div>
                                             </div>
