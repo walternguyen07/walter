@@ -142,8 +142,12 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
+<<<<<<< HEAD
                                                         <h3>Welcome to Multikart</h3>
                                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+=======
+                                                        <h3>Welcome to Walter System</h3>
+>>>>>>> 5dbc10cdf1cf45a438348e9f887b4a45e827e4e4
                                                     </div>
                                                 </div>
                                             </div>
@@ -152,8 +156,12 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
+<<<<<<< HEAD
                                                         <h3>Welcome to Multikart</h3>
                                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+=======
+                                                        <h3>Welcome to Walter System</h3>
+>>>>>>> 5dbc10cdf1cf45a438348e9f887b4a45e827e4e4
                                                     </div>
                                                 </div>
                                             </div>
@@ -162,8 +170,12 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
+<<<<<<< HEAD
                                                         <h3>Welcome to Multikart</h3>
                                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+=======
+                                                        <h3>Welcome to Walter System</h3>
+>>>>>>> 5dbc10cdf1cf45a438348e9f887b4a45e827e4e4
                                                     </div>
                                                 </div>
                                             </div>
@@ -172,8 +184,12 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
+<<<<<<< HEAD
                                                         <h3>Welcome to Multikart</h3>
                                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+=======
+                                                        <h3>Welcome to Walter System</h3>
+>>>>>>> 5dbc10cdf1cf45a438348e9f887b4a45e827e4e4
                                                     </div>
                                                 </div>
                                             </div>
@@ -182,8 +198,13 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
+<<<<<<< HEAD
                                                         <h3>Welcome to Multikart</h3>
                                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+=======
+                                                        <h3>Welcome to Walter System</h3>
+
+>>>>>>> 5dbc10cdf1cf45a438348e9f887b4a45e827e4e4
                                                     </div>
                                                 </div>
                                             </div>
@@ -192,8 +213,12 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
+<<<<<<< HEAD
                                                         <h3>Welcome to Multikart</h3>
                                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+=======
+                                                        <h3>Welcome to Walter System</h3>
+>>>>>>> 5dbc10cdf1cf45a438348e9f887b4a45e827e4e4
                                                     </div>
                                                 </div>
                                             </div>
@@ -202,8 +227,12 @@
                                             <div>
                                                 <div style="width: 100%; display: inline-block;">
                                                     <div>
+<<<<<<< HEAD
                                                         <h3>Welcome to Multikart</h3>
                                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+=======
+                                                        <h3>Welcome to Walter System</h3>
+>>>>>>> 5dbc10cdf1cf45a438348e9f887b4a45e827e4e4
                                                     </div>
                                                 </div>
                                             </div>
