@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.master');
 });
 Route::get("admin", "back\Homecontroller@index");
 Route::get("login", "LoginController@login");
