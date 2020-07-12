@@ -1591,11 +1591,11 @@
                                                 <div class="lable-block"><span class="lable3">new</span> <span class="lable4">on
                                                         sale</span></div>
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/pro3/1.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1">
-                                                        <img src="assets/images/pro3/1.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/pro3/1.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1">
+                                                        <img src="{{ asset("front/assets/images/pro3/1.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/pro3/2.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/2.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/pro3/2.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/2.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="cart-info cart-wrap">
                                                     <button data-toggle="modal" data-target="#addtocart" title="Add to cart" tabindex="-1"><i class="ti-shopping-cart"></i></button> <a href="javascript:void(0)" title="Add to Wishlist" tabindex="-1"><i class="ti-heart" aria-hidden="true"></i></a> <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View" tabindex="-1"><i class="ti-search" aria-hidden="true"></i></a> <a href="compare.html" title="Compare" tabindex="-1"><i class="ti-reload" aria-hidden="true"></i></a></div>
@@ -1623,7 +1623,7 @@
                                                 <div class="lable-block"><span class="lable3">new</span> <span class="lable4">on
                                                         sale</span></div>
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/pro3/33.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/33.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/pro3/33.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/33.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
                                                     <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/pro3/34.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/34.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
@@ -1652,7 +1652,7 @@
                                         <div class="product-box" style="width: 100%; display: inline-block;">
                                             <div class="img-wrapper">
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/35.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/35.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/35.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/35.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
                                                     <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/36.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/36.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
@@ -1683,10 +1683,10 @@
                                                 <div class="lable-block"><span class="lable3">new</span> <span class="lable4">on
                                                         sale</span></div>
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/33.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/33.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/33.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/33.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/34.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/34.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/34.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/34.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="cart-info cart-wrap">
                                                     <button data-toggle="modal" data-target="#addtocart" title="Add to cart" tabindex="-1"><i class="ti-shopping-cart"></i></button> <a href="javascript:void(0)" title="Add to Wishlist" tabindex="-1"><i class="ti-heart" aria-hidden="true"></i></a> <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View" tabindex="-1"><i class="ti-search" aria-hidden="true"></i></a> <a href="compare.html" title="Compare" tabindex="-1"><i class="ti-reload" aria-hidden="true"></i></a></div>
@@ -1715,7 +1715,7 @@
                                                     <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/27.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="assets/images/pro3/27.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/28.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="assets/images/pro3/28.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/28.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="{{ asset("front/assets/images/pro3/28.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="cart-info cart-wrap">
                                                     <button data-toggle="modal" data-target="#addtocart" title="Add to cart" tabindex="0">
@@ -1755,11 +1755,11 @@
                                                 <div class="lable-block"><span class="lable3">new</span> <span class="lable4">on
                                                         sale</span></div>
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/1.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="0">
-                                                        <img src="assets/images/pro3/1.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/1.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="0">
+                                                        <img src="{{ asset("front/assets/images/pro3/1.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/2.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="assets/images/pro3/2.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/2.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="{{ asset("front/assets/images/pro3/2.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="cart-info cart-wrap">
                                                     <button data-toggle="modal" data-target="#addtocart" title="Add to cart" tabindex="0"><i class="ti-shopping-cart"></i></button> <a href="javascript:void(0)" title="Add to Wishlist" tabindex="0"><i class="ti-heart" aria-hidden="true"></i></a> <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View" tabindex="0"><i class="ti-search" aria-hidden="true"></i></a> <a href="compare.html" title="Compare" tabindex="0"><i class="ti-reload" aria-hidden="true"></i></a></div>
@@ -1787,10 +1787,10 @@
                                                 <div class="lable-block"><span class="lable3">new</span> <span class="lable4">on
                                                         sale</span></div>
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/33.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="assets/images/pro3/33.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/33.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="{{ asset("front/assets/images/pro3/33.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/34.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="assets/images/pro3/34.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/34.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="{{ asset("front/assets/images/pro3/34.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="cart-info cart-wrap">
                                                     <button data-toggle="modal" data-target="#addtocart" title="Add to cart" tabindex="0"><i class="ti-shopping-cart"></i></button> <a href="javascript:void(0)" title="Add to Wishlist" tabindex="0"><i class="ti-heart" aria-hidden="true"></i></a> <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View" tabindex="0"><i class="ti-search" aria-hidden="true"></i></a> <a href="compare.html" title="Compare" tabindex="0"><i class="ti-reload" aria-hidden="true"></i></a></div>
@@ -1816,10 +1816,10 @@
                                         <div class="product-box" style="width: 100%; display: inline-block;">
                                             <div class="img-wrapper">
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/35.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="assets/images/pro3/35.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/35.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="{{ asset("front/assets/images/pro3/35.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/36.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="assets/images/pro3/36.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/36.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="0"><img src="{{ asset("front/assets/images/pro3/36.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="cart-info cart-wrap">
                                                     <button data-toggle="modal" data-target="#addtocart" title="Add to cart" tabindex="0"><i class="ti-shopping-cart"></i></button> <a href="javascript:void(0)" title="Add to Wishlist" tabindex="0"><i class="ti-heart" aria-hidden="true"></i></a> <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View" tabindex="0"><i class="ti-search" aria-hidden="true"></i></a> <a href="compare.html" title="Compare" tabindex="0"><i class="ti-reload" aria-hidden="true"></i></a></div>
@@ -1847,7 +1847,7 @@
                                                 <div class="lable-block"><span class="lable3">new</span> <span class="lable4">on
                                                         sale</span></div>
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/33.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/33.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/33.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/33.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
                                                     <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/34.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/34.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
@@ -1876,7 +1876,7 @@
                                         <div class="product-box" style="width: 100%; display: inline-block;">
                                             <div class="img-wrapper">
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/27.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/27.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/27.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/27.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
                                                     <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/28.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/28.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
@@ -1919,8 +1919,8 @@
                                                 <div class="lable-block"><span class="lable3">new</span> <span class="lable4">on
                                                         sale</span></div>
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/1.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1">
-                                                        <img src="assets/images/pro3/1.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/1.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1">
+                                                        <img src="{{ asset("front/assets/images/pro3/1.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
                                                     <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/2.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/2.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
@@ -1951,10 +1951,10 @@
                                                 <div class="lable-block"><span class="lable3">new</span> <span class="lable4">on
                                                         sale</span></div>
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/33.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/33.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/33.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/33.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url(&quot;assets/images/pro3/34.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/34.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyloaded" style="background-image: url({{ asset("front/assets/images/pro3/34.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/34.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="cart-info cart-wrap">
                                                     <button data-toggle="modal" data-target="#addtocart" title="Add to cart" tabindex="-1"><i class="ti-shopping-cart"></i></button> <a href="javascript:void(0)" title="Add to Wishlist" tabindex="-1"><i class="ti-heart" aria-hidden="true"></i></a> <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View" tabindex="-1"><i class="ti-search" aria-hidden="true"></i></a> <a href="compare.html" title="Compare" tabindex="-1"><i class="ti-reload" aria-hidden="true"></i></a></div>
@@ -1980,7 +1980,7 @@
                                         <div class="product-box" style="width: 100%; display: inline-block;">
                                             <div class="img-wrapper">
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/pro3/35.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/35.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/pro3/35.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/35.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
                                                     <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/pro3/36.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/36.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
@@ -2011,7 +2011,7 @@
                                                 <div class="lable-block"><span class="lable3">new</span> <span class="lable4">on
                                                         sale</span></div>
                                                 <div class="front">
-                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/pro3/33.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/33.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
+                                                    <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url({{ asset("front/assets/images/pro3/33.jpg") }}); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="{{ asset("front/assets/images/pro3/33.jpg") }}" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
                                                 </div>
                                                 <div class="back">
                                                     <a href="product-page(no-sidebar).html" class="bg-size blur-up lazyload" style="background-image: url(&quot;assets/images/pro3/34.jpg&quot;); background-size: cover; background-position: center center; display: block;" tabindex="-1"><img src="assets/images/pro3/34.jpg" class="img-fluid blur-up lazyload bg-img" alt="" style="display: none;"></a>
