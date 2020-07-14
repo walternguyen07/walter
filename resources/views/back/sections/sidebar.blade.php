@@ -21,11 +21,11 @@
                          <line x1="12" y1="22.76" x2="12" y2="11"></line>
                      </svg> <span>Products</span><i class="fa fa-angle-right pull-right"></i></a>
                  <ul class="sidebar-submenu">
-                    <li><a href="category.html"><i class="fa fa-circle"></i>Category</a></li>
-                    <li><a href="category-sub.html"><i class="fa fa-circle"></i>Sub Category</a></li>
-                    <li><a href="product-list.html"><i class="fa fa-circle"></i>Product List</a></li>
-                    <li><a href="product-detail.html"><i class="fa fa-circle"></i>Product Detail</a></li>
-                    <li><a href="add-product.html"><i class="fa fa-circle"></i>Add Product</a></li>
+                     <li><a href="category.html"><i class="fa fa-circle"></i>Category</a></li>
+                     <li><a href="category-sub.html"><i class="fa fa-circle"></i>Sub Category</a></li>
+                     <li><a href="product-list.html"><i class="fa fa-circle"></i>Product List</a></li>
+                     <li><a href="product-detail.html"><i class="fa fa-circle"></i>Product Detail</a></li>
+                     <li><a href="add-product.html"><i class="fa fa-circle"></i>Add Product</a></li>
                  </ul>
              </li>
              <li><a class="sidebar-header" href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign">
@@ -52,6 +52,15 @@
                          <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
                          <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
                      </svg><span>Pages</span><i class="fa fa-angle-right pull-right"></i></a>
+                 <ul class="sidebar-submenu">
+                     <li><a href="pages-list.html"><i class="fa fa-circle"></i>List Blog</a></li>
+                     <li><a href="page-create.html"><i class="fa fa-circle"></i>Create Blog</a></li>
+                 </ul>
+             </li>
+             <li><a class="sidebar-header" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clipboard">
+                         <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                         <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                     </svg><span>Blog</span><i class="fa fa-angle-right pull-right"></i></a>
                  <ul class="sidebar-submenu">
                      <li><a href="pages-list.html"><i class="fa fa-circle"></i>List Page</a></li>
                      <li><a href="page-create.html"><i class="fa fa-circle"></i>Create Page</a></li>
