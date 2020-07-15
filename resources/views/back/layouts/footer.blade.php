@@ -323,7 +323,9 @@
 	<script src="{{ asset("back/js/pages/dashboard2.js") }}"></script>
 
 	<!-- UltimatePro Admin for demo purposes -->
-	<script src="{{ asset("back/js/demo.js") }}"></script>
+    <script src="{{ asset("back/js/demo.js") }}"></script>
+    	<!-- CK Editor -->
+	<script src="{{ asset("back/assets/vendor_components/ckeditor/ckeditor.js") }}"></script>
 
 
 </body>
