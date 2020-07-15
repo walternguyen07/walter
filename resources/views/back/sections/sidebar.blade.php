@@ -41,10 +41,6 @@
                         </a></li>
                     <li><a href="pages/page_layout_inner_right_sidebar.html"><i class="ti-more"></i>{{__('messages.Banner')}}
                         </a></li>
-                    <li><a href="pages/page_layout_inner_fixed_left_sidebar.html"><i class="ti-more"></i>Inner Fixed
-                            Left Sidebar </a></li>
-                    <li><a href="pages/page_layout_inner_fixed_right_sidebar.html"><i class="ti-more"></i>Inner Fixed
-                            Right Sidebar </a></li>
                 </ul>
             </li>
 
