@@ -318,14 +318,18 @@
 
 	<!-- UltimatePro Admin App -->
 	<script src="{{ asset("back/js/template.js") }}"></script>
+    <script src="{{ asset("back/assets/vendor_components/ckeditor/ckeditor.js") }}"></script>
+    <!-- UltimatePro Admin dashboard demo (This is only for demo purposes) -->
+    <script src="{{ asset("back/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js") }}"></script>
+    <script src="{{ asset("back/js/pages/dashboard2.js") }}"></script>
+    <script src="{{ asset("back/js/pages/editor.js") }}"></script>
 
-	<!-- UltimatePro Admin dashboard demo (This is only for demo purposes) -->
-	<script src="{{ asset("back/js/pages/dashboard2.js") }}"></script>
 
 	<!-- UltimatePro Admin for demo purposes -->
     <script src="{{ asset("back/js/demo.js") }}"></script>
-    	<!-- CK Editor -->
-	<script src="{{ asset("back/assets/vendor_components/ckeditor/ckeditor.js") }}"></script>
+        <!-- CK Editor -->
+        <script src="{{ asset("back/assets/vendor_components/dropzone/dropzone.js") }}"></script>
+
 
 
 </body>

@@ -17,29 +17,41 @@
                         <div class="tab-content">
                             <div class="tab-pane active">
                                 <div class="form-group">
-                                    <label for="name" class="control-label required" aria-required="true">Name</label>
+                                    <label for="name" class="control-label required" aria-required="true">Title</label>
                                     <input class="form-control" placeholder="Name" data-counter="120" name="name"
                                         type="text" id="name">
                                 </div>
+                                <div class="form-group">
+                                    <label for="name" class="control-label required" aria-required="true">Image</label>
+                                    <form action="#" class="dropzone">
+                                        <div class="fallback">
+                                            <input name="file" type="file"  />
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="form-group">
+                                    <label for="content" class="control-label required" aria-required="true">Content</label>
+                                    <textarea id="editor1" name="content" rows="10" cols="80">
+                                        This is my textarea to be replaced with CKEditor.
+                </textarea>
+          </form>
+                                </div>
                             </div>
                             <div class="tab-pane" id="tab_history">
-                                <div class="form-group" style="min-height: 400px;">
-                                    <table class="table table-bordered table-striped" id="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Author</th>
-                                                <th>Column</th>
-                                                <th>Origin</th>
-                                                <th>After changes</th>
-                                                <th>Created At</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="text-center">
-                                                <td colspan="5">No record</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <div class="form-group">
+                                    <label for="name" class="control-label required" aria-required="true">Meta Title</label>
+                                    <input class="form-control" placeholder="Name"  name="meta_title"
+                                        type="text" id="meta_title">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name" class="control-label required" aria-required="true">Meta Keyword</label>
+                                    <input class="form-control" placeholder="Name"  name="meta_keyword"
+                                        type="text" id="meta_keyword">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name" class="control-label required" aria-required="true">Meta Description</label>
+                                    <input class="form-control" placeholder="Name"  name="meta_description"
+                                        type="text" id="meta_description">
                                 </div>
                             </div>
                         </div>
