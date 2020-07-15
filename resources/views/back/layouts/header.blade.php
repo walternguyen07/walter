@@ -1,65 +1,40 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Multikart admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, Multikart admin template, dashboard template, flat admin template, responsive admin template, web app">
-    <meta name="author" content="pixelstrap">
-    <link rel="icon" href="{{ asset("back/assets/images/favicon.png") }}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{ asset("back/assets/images/favicon.png") }}" type="image/x-icon">
-    <title>Multikart - Premium Admin Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
 
-    <!-- Google font-->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <title>UltimatePro Admin - Dashboard</title>
 
-    <!-- Font Awesome-->
-    <link rel="stylesheet" type="text/css" href="{{ asset("back/assets/css/fontawesome.css") }}">
+	<!-- Bootstrap 4.0-->
+	<link rel="stylesheet" href="{{ asset("back/assets/vendor_components/bootstrap/dist/css/bootstrap.css") }}">
 
-    <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="{{ asset("back/assets/css/flag-icon.css") }}">
+	<!-- Bootstrap extend-->
+	<link rel="stylesheet" href="{{ asset("back/css/bootstrap-extend.css") }}">
 
-    <!-- ico-font-->
-    <link rel="stylesheet" type="text/css" href="{{ asset("back/assets/css/icofont.css") }}">
+	<!-- theme style -->
+	<link rel="stylesheet" href="{{ asset("back/css/master_style.css") }}">
 
-    <!-- Prism css-->
-    <link rel="stylesheet" type="text/css" href="{{ asset("back/assets/css/prism.css") }}">
+	<!-- UltimatePro Admin skins -->
+	<link rel="stylesheet" href="{{ asset("back/css/skins/_all-skins.css") }}">
 
-    <!-- Chartist css -->
-    <link rel="stylesheet" type="text/css" href="{{ asset("back/assets/css/chartist.css") }}">
+	<!-- daterange picker -->
+	<link rel="stylesheet" href="{{ asset("back/assets/vendor_components/bootstrap-daterangepicker/daterangepicker.css") }}">
 
-    <!-- Bootstrap css-->
-    <link rel="stylesheet" type="text/css" href="{{ asset("back/assets/css/bootstrap.css") }}">
+	<!-- Data Table-->
+	<link rel="stylesheet" type="text/css" href="{{ asset("back/assets/vendor_components/datatable/datatables.min.css") }}"/>
 
-    <!-- App css-->
-    <link rel="stylesheet" type="text/css" href="{{ asset("back/assets/css/admin.css") }}">
-    @yield('logincss')
 
-    <style type="text/css">
-        .jqstooltip {
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            visibility: hidden;
-            background: rgb(0, 0, 0) transparent;
-            background-color: rgba(0, 0, 0, 0.6);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-            color: white;
-            font: 10px arial, san serif;
-            text-align: left;
-            white-space: nowrap;
-            padding: 5px;
-            border: 1px solid white;
-            z-index: 10000;
-        }
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
-        .jqsfield {
-            color: white;
-            font: 10px arial, san serif;
-            text-align: left;
-        }
 
-    </style>
-</head>
+  </head>

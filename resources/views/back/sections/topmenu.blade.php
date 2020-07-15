@@ -1,129 +1,363 @@
-<!-- Page Header Start-->
-<div class="page-main-header">
-    <div class="main-header-right row">
-        <div class="main-header-left d-lg-none">
-            <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="{{ asset("back/assets/images/multikart-logo.png") }}" alt=""></a></div>
-        </div>
-        <div class="mobile-sidebar">
-            <div class="media-body text-right switch-sm">
-                <label class="switch"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-left" id="sidebar-toggle">
-                            <line x1="17" y1="10" x2="3" y2="10"></line>
-                            <line x1="21" y1="6" x2="3" y2="6"></line>
-                            <line x1="21" y1="14" x2="3" y2="14"></line>
-                            <line x1="17" y1="18" x2="3" y2="18"></line>
-                        </svg></a></label>
+<header class="main-header">
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+      <!-- mini logo -->
+      <div class="logo-mini">
+          <span class="light-logo"><img src="{{ asset("back/images/logo-light.png") }}" alt="logo"></span>
+          <span class="dark-logo"><img src="{{ asset("back/images/logo-dark.png") }}" alt="logo"></span>
+      </div>
+      <!-- logo-->
+      <div class="logo-lg">
+          <span class="light-logo"><img src="{{ asset("back/images/logo-light-text.png") }}" alt="logo"></span>
+            <span class="dark-logo"><img src="{{ asset("back/images/logo-dark-text.png") }}" alt="logo"></span>
+      </div>
+    </a>
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <div>
+          <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+            <i class="ti-align-left"></i>
+          </a>
+          <a id="toggle_res_search" data-toggle="collapse" data-target="#search_form" class="res-only-view" href="javascript:void(0);"><i class="mdi mdi-magnify"></i></a>
+          <form id="search_form" role="search" class="top-nav-search pull-left collapse ml-20">
+            <div class="input-group">
+                <input type="text" name="example-input1-group2" class="form-control" placeholder="Search">
+                <span class="input-group-btn">
+                <button type="button" class="btn  btn-default" data-target="#search_form" data-toggle="collapse" aria-label="Close" aria-expanded="true"><i class="mdi mdi-magnify"></i></button>
+                </span>
             </div>
-        </div>
-        <div class="nav-right col">
-            <ul class="nav-menus">
-                <li>
-                    <form class="form-inline search-form">
-                        <div class="form-group">
-                            <input class="form-control-plaintext" type="search" placeholder="Search.."><span class="d-sm-none mobile-search"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
-                                    <circle cx="11" cy="11" r="8"></circle>
-                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                </svg></span>
+          </form>
+
+      </div>
+
+      <div class="navbar-custom-menu r-side">
+        <ul class="nav navbar-nav">
+          <!-- Messages -->
+          <li class="dropdown messages-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="mdi mdi-email"></i>
+            </a>
+            <ul class="dropdown-menu animated bounceIn">
+
+              <li class="header">
+                <div class="p-20 bg-light">
+                    <div class="flexbox">
+                        <div>
+                            <h4 class="mb-0 mt-0">Messages</h4>
                         </div>
-                    </form>
-                </li>
-                <li><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-maximize-2">
-                            <polyline points="15 3 21 3 21 9"></polyline>
-                            <polyline points="9 21 3 21 3 15"></polyline>
-                            <line x1="21" y1="3" x2="14" y2="10"></line>
-                            <line x1="3" y1="21" x2="10" y2="14"></line>
-                        </svg></a></li>
-                <li class="onhover-dropdown"><a class="txt-dark" href="#">
-                        <h6>EN</h6>
-                    </a>
-                    <ul class="language-dropdown onhover-show-div p-20">
-                        <li><a href="#" data-lng="en"><i class="flag-icon flag-icon-is"></i> English</a></li>
-                        <li><a href="#" data-lng="es"><i class="flag-icon flag-icon-um"></i> Spanish</a></li>
-                        <li><a href="#" data-lng="pt"><i class="flag-icon flag-icon-uy"></i> Portuguese</a></li>
-                        <li><a href="#" data-lng="fr"><i class="flag-icon flag-icon-nz"></i> French</a></li>
-                    </ul>
-                </li>
-                <li class="onhover-dropdown"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
-                        <path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path>
-                    </svg><span class="badge badge-pill badge-primary pull-right notification-badge">3</span><span class="dot"></span>
-                    <ul class="notification-dropdown onhover-show-div p-0">
-                        <li>Notification <span class="badge badge-pill badge-primary pull-right">3</span></li>
-                        <li>
-                            <div class="media">
-                                <div class="media-body">
-                                    <h6 class="mt-0"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag shopping-color">
-                                                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-                                                <line x1="3" y1="6" x2="21" y2="6"></line>
-                                                <path d="M16 10a4 4 0 0 1-8 0"></path>
-                                            </svg></span>Your order ready for Ship..!</h6>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="media">
-                                <div class="media-body">
-                                    <h6 class="mt-0 txt-success"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download download-color font-success">
-                                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                                                <polyline points="7 10 12 15 17 10"></polyline>
-                                                <line x1="12" y1="15" x2="12" y2="3"></line>
-                                            </svg></span>Download Complete</h6>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="media">
-                                <div class="media-body">
-                                    <h6 class="mt-0 txt-danger"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle alert-color font-danger">
-                                                <circle cx="12" cy="12" r="10"></circle>
-                                                <line x1="12" y1="8" x2="12" y2="12"></line>
-                                                <line x1="12" y1="16" x2="12" y2="16"></line>
-                                            </svg></span>250 MB trash files</h6>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="txt-dark"><a href="#">All</a> notification</li>
-                    </ul>
-                </li>
-                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square right_side_toggle">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                        </svg><span class="dot"></span></a></li>
-                <li class="onhover-dropdown">
-                    <div class="media align-items-center"><img class="align-self-center pull-right img-50 rounded-circle blur-up lazyloaded" src="{{ asset("back/assets/images/man.png") }}" alt="header-user">
-                        <div class="dotted-animation"><span class="animate-circle"></span><span class="main-circle"></span></div>
+                        <div>
+                            <a href="#" class="text-danger">Clear All</a>
+                        </div>
                     </div>
-                    <ul class="profile-dropdown onhover-show-div p-20 profile-dropdown-hover">
-                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
-                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                    <circle cx="12" cy="7" r="4"></circle>
-                                </svg>Edit Profile</a></li>
-                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg>Inbox</a></li>
-                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock">
-                                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                                </svg>Lock Screen</a></li>
-                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings">
-                                    <circle cx="12" cy="12" r="3"></circle>
-                                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-                                </svg>Settings</a></li>
-                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
-                                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-                                    <polyline points="16 17 21 12 16 7"></polyline>
-                                    <line x1="21" y1="12" x2="9" y2="12"></line>
-                                </svg>Logout</a></li>
-                    </ul>
-                </li>
+                </div>
+              </li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu sm-scrol">
+                  <li><!-- start message -->
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="{{ asset("back/images/user2-160x160.jpg") }}" class="rounded-circle" alt="User Image">
+                      </div>
+                      <div class="mail-contnet">
+                         <h4>
+                          Lorem Ipsum
+                          <small><i class="fa fa-clock-o"></i> 15 mins</small>
+                         </h4>
+                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end message -->
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="{{ asset("back/images/user3-128x128.jpg") }}" class="rounded-circle" alt="User Image">
+                      </div>
+                      <div class="mail-contnet">
+                         <h4>
+                          Nullam tempor
+                          <small><i class="fa fa-clock-o"></i> 4 hours</small>
+                         </h4>
+                         <span>Curabitur facilisis erat quis metus congue viverra.</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="{{ asset("back/images/user4-128x128.jpg") }}" class="rounded-circle" alt="User Image">
+                      </div>
+                      <div class="mail-contnet">
+                         <h4>
+                          Proin venenatis
+                          <small><i class="fa fa-clock-o"></i> Today</small>
+                         </h4>
+                         <span>Vestibulum nec ligula nec quam sodales rutrum sed luctus.</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="{{ asset("back/images/user3-128x128.jpg") }}" class="rounded-circle" alt="User Image">
+                      </div>
+                      <div class="mail-contnet">
+                         <h4>
+                          Praesent suscipit
+                        <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                         </h4>
+                         <span>Curabitur quis risus aliquet, luctus arcu nec, venenatis neque.</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="{{ asset("back/images/user4-128x128.jpg") }}" class="rounded-circle" alt="User Image">
+                      </div>
+                      <div class="mail-contnet">
+                         <h4>
+                          Donec tempor
+                          <small><i class="fa fa-clock-o"></i> 2 days</small>
+                         </h4>
+                         <span>Praesent vitae tellus eget nibh lacinia pretium.</span>
+                      </div>
+
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer">
+                  <a href="#" class="bg-light">See all e-Mails</a>
+              </li>
             </ul>
-            <div class="d-lg-none mobile-toggle pull-right"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal">
-                    <circle cx="12" cy="12" r="1"></circle>
-                    <circle cx="19" cy="12" r="1"></circle>
-                    <circle cx="5" cy="12" r="1"></circle>
-                </svg></div>
-        </div>
-    </div>
-</div>
-<!-- Page Header Ends -->
+          </li>
+          <!-- Notifications -->
+          <li class="dropdown notifications-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="mdi mdi-bell"></i>
+            </a>
+            <ul class="dropdown-menu animated bounceIn">
+
+              <li class="header">
+                <div class="bg-light p-20">
+                    <div class="flexbox">
+                        <div>
+                            <h4 class="mb-0 mt-0">Notifications</h4>
+                        </div>
+                        <div>
+                            <a href="#" class="text-danger">Clear All</a>
+                        </div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu sm-scrol">
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-users text-info"></i> Curabitur id eros quis nunc suscipit blandit.
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-warning text-warning"></i> Duis malesuada justo eu sapien elementum, in semper diam posuere.
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-users text-danger"></i> Donec at nisi sit amet tortor commodo porttitor pretium a erat.
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-shopping-cart text-success"></i> In gravida mauris et nisi
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-user text-danger"></i> Praesent eu lacus in libero dictum fermentum.
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-user text-primary"></i> Nunc fringilla lorem
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-user text-success"></i> Nullam euismod dolor ut quam interdum, at scelerisque ipsum imperdiet.
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer">
+                  <a href="#" class="bg-light">View all</a>
+              </li>
+            </ul>
+          </li>
+          <!-- Tasks-->
+          <li class="dropdown tasks-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="mdi mdi-bulletin-board"></i>
+            </a>
+            <ul class="dropdown-menu animated bounceIn">
+
+              <li class="header">
+                <div class="p-20 bg-light">
+                    <div class="flexbox">
+                        <div>
+                            <h4 class="mb-0 mt-0">Tasks</h4>
+                        </div>
+                        <div>
+                            <a href="#" class="text-danger">Clear All</a>
+                        </div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu sm-scrol">
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Lorem ipsum dolor sit amet
+                        <small class="pull-right">30%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-danger" style="width: 30%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">30% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Vestibulum nec ligula
+                        <small class="pull-right">20%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-info" style="width: 20%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">20% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Donec id leo ut ipsum
+                        <small class="pull-right">70%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-success" style="width: 70%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">70% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Praesent vitae tellus
+                        <small class="pull-right">40%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-warning" style="width: 40%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">40% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Nam varius sapien
+                        <small class="pull-right">80%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-primary" style="width: 80%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">80% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Nunc fringilla
+                        <small class="pull-right">90%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-info" style="width: 90%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">90% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                </ul>
+              </li>
+              <li class="footer">
+                  <a href="#" class="bg-light">View all tasks</a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- User Account-->
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="{{ asset("back/images/avatar/7.jpg") }}" class="user-image rounded-circle" alt="User Image">
+            </a>
+            <ul class="dropdown-menu animated flipInX">
+              <!-- User image -->
+              <li class="user-header bg-img" style="background-image: url({{ asset("back/images/user-info.jpg") }})" data-overlay="3">
+                  <div class="flexbox align-self-center">
+                      <img src="{{ asset("back/images/avatar/7.jpg") }}" class="float-left rounded-circle" alt="User Image">
+                    <h4 class="user-name align-self-center">
+                      <span>Samuel Brus</span>
+                      <small>samuel@gmail.com</small>
+                    </h4>
+                  </div>
+              </li>
+              <!-- Menu Body -->
+              <li class="user-body">
+                    <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-person"></i> My Profile</a>
+                    <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-bag"></i> My Balance</a>
+                    <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-email-unread"></i> Inbox</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-settings"></i> Account Setting</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="javascript:void(0)"><i class="ion-log-out"></i> Logout</a>
+                    <div class="dropdown-divider"></div>
+                    <div class="p-10"><a href="javascript:void(0)" class="btn btn-sm btn-rounded btn-success">View Profile</a></div>
+              </li>
+            </ul>
+          </li>
+
+
+          <!-- Control Sidebar Toggle Button -->
+          <li>
+            <a href="#" data-toggle="control-sidebar"><i class="fa fa-cog fa-spin"></i></a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
