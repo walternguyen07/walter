@@ -5,9 +5,6 @@
 
 </div>
 <!-- ./wrapper -->
-
-
-
 <!-- jQuery 3 -->
 <script src="{{ asset("back/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js") }}"></script>
 
