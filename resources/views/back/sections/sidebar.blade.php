@@ -41,14 +41,14 @@
             <li class="treeview">
                 <a href="#">
                     <i class="ti-files"></i>
-                    <span>Blog</span>
+                    <span>{{__('messages.Blog')}}</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-right pull-right"></i>
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{ route("blog.index") }}"><i class="ti-more"></i>List Blog</a></li>
-                    <li><a href="{{ route("blog.create") }}"><i class="ti-more"></i>Create New Blog</a></li>
+                    <li><a href="{{ route("blog.index") }}"><i class="ti-more"></i>{{__('messages.List Blog')}}</a></li>
+                    <li><a href="{{ route("blog.create") }}"><i class="ti-more"></i>{{__('messages.Create New Blog')}}</a></li>
                 </ul>
             </li>
 
