@@ -26,6 +26,7 @@ class BlogController extends Controller
     public function create()
     {
         //
+        return view("back.blog.add");
     }
 
     /**
@@ -34,7 +35,7 @@ class BlogController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(BlogCreate $request)
     {
         //
     }

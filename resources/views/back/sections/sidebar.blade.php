@@ -53,17 +53,8 @@
                          <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
                      </svg><span>Blog</span><i class="fa fa-angle-right pull-right"></i></a>
                  <ul class="sidebar-submenu">
-                     <li><a href="{{ route("blog.index") }}"><i class="fa fa-circle"></i>List Blog</a></li>
-                     <li><a href="page-create.html"><i class="fa fa-circle"></i>Create Blog</a></li>
-                 </ul>
-             </li>
-             <li><a class="sidebar-header" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clipboard">
-                         <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
-                         <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
-                     </svg><span>Blog</span><i class="fa fa-angle-right pull-right"></i></a>
-                 <ul class="sidebar-submenu">
-                     <li><a href="{{ route("blog.index") }}"><i class="fa fa-circle"></i>List Page</a></li>
-                     <li><a href="page-create.html"><i class="fa fa-circle"></i>Create Page</a></li>
+                     <li><a href="{{ route("blog.index") }}"><i class="fa fa-circle"></i>{{ __('blog.ListBlog') }}</a></li>
+                     <li><a href="{{ route("blog.create") }}"><i class="fa fa-circle"></i>{{ __('blog.CreateBlog') }}</a></li>
                  </ul>
              </li>
              <li><a class="sidebar-header" href="media.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-camera">
