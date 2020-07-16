@@ -3,11 +3,6 @@
 <div class="row">
     <div class="col-12">
         <div class="box">
-            <div class="box-header">
-                <h4 class="box-title">Editable with <strong>Datatable</strong></h4>
-                <h6 class="subtitle">Just click on word which you want to change and enter</h6>
-            </div>
-
             <div class="box-body">
                 <div class="table-responsive">
                     <table id="example1" class="table table-bordered table-separated">

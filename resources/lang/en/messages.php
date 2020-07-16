@@ -21,5 +21,6 @@ return [
     "Product" => "Sản phẩm",
     "Category" => "Danh mục sản phẩm",
     "Sytem" => "Hệ thống",
-    "Order" => "Đơn hàng"
+    "Order" => "Đơn hàng",
+    "Publish" => "Publish"
 ];
