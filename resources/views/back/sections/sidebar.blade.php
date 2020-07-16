@@ -80,7 +80,7 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="ti-direction-alt"></i>
+                    <i class="ti-settings"></i>
                     <span>{{__('messages.Sytem')}} </span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-right pull-right"></i>
