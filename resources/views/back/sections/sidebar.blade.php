@@ -24,7 +24,8 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="{{ route("blog.index") }}"><i class="ti-more"></i>{{__('messages.List Blog')}}</a></li>
-                    <li><a href="{{ route("blog.create") }}"><i class="ti-more"></i>{{__('messages.Create New Blog')}}</a></li>
+                    <li><a href="{{ route("blog.create") }}"><i class="ti-more"></i>{{__('messages.Create New Blog')}}
+                        </a></li>
                 </ul>
             </li>
 
@@ -37,9 +38,11 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/page_layout_inner_left_sidebar.html"><i class="ti-more"></i>{{__('messages.Slider')}}
+                    <li><a href="pages/page_layout_inner_left_sidebar.html"><i
+                                class="ti-more"></i>{{__('messages.Slider')}}
                         </a></li>
-                    <li><a href="pages/page_layout_inner_right_sidebar.html"><i class="ti-more"></i>{{__('messages.Banner')}}
+                    <li><a href="pages/page_layout_inner_right_sidebar.html"><i
+                                class="ti-more"></i>{{__('messages.Banner')}}
                         </a></li>
                 </ul>
             </li>
@@ -53,9 +56,11 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/page_layout_inner_left_sidebar.html"><i class="ti-more"></i>{{__('messages.Product')}}
+                    <li><a href="pages/page_layout_inner_left_sidebar.html"><i
+                                class="ti-more"></i>{{__('messages.Product')}}
                         </a></li>
-                    <li><a href="pages/page_layout_inner_right_sidebar.html"><i class="ti-more"></i>{{__('messages.Category')}}
+                    <li><a href="pages/page_layout_inner_right_sidebar.html"><i
+                                class="ti-more"></i>{{__('messages.Category')}}
                         </a></li>
                 </ul>
             </li>

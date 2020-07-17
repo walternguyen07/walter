@@ -51,6 +51,5 @@
 <script src="{{ asset("back/assets/vendor_components/dropzone/dropzone.js") }}"></script>
 
 
-
 </body>
 </html>

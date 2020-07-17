@@ -26,11 +26,11 @@
 
     <!-- daterange picker -->
     <link rel="stylesheet"
-        href="{{ asset("back/assets/vendor_components/bootstrap-daterangepicker/daterangepicker.css") }}">
+          href="{{ asset("back/assets/vendor_components/bootstrap-daterangepicker/daterangepicker.css") }}">
 
     <!-- Data Table-->
     <link rel="stylesheet" type="text/css"
-        href="{{ asset("back/assets/vendor_components/datatable/datatables.min.css") }}" />
+          href="{{ asset("back/assets/vendor_components/datatable/datatables.min.css") }}"/>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

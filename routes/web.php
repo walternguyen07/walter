@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 Route::get("admin", "back\Homecontroller@index");
 Route::get("login", "LoginController@login");
-Route::resource('blog', 'back\BlogController');
+Route::resource('admin/blog', 'back\BlogController');

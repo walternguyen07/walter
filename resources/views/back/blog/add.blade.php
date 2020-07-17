@@ -1,8 +1,9 @@
 @extends('back.layouts.master')
 @section('content')
-<div class="row">
-    <div class="col-md-12">
-        <form>
+    <div class="row">
+        <div class="col-md-12">
+            {!! Form::open(array('route' => 'blog.store','method'=>'POST','files' => true)) !!}
+            @csrf
             <div class="row">
                 <div class="col-md-9">
                     <div class="content">
@@ -24,8 +25,8 @@
                                         {{ __('messages.Title')}}
 
                                     </label>
-                                    <input class="form-control" placeholder="Name" data-counter="120" name="name"
-                                        type="text" id="name">
+                                    <input class="form-control" placeholder="Name" data-counter="120" name="title"
+                                           type="text" id="title">
                                 </div>
                                 <div class="form-group">
                                     <label for="name" class="control-label
@@ -34,7 +35,7 @@
                                     </label>
 
                                     <div class="fallback">
-                                        <input name="file" type="file">
+                                        <input name="image_url[]" type="file" multiple>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -42,8 +43,7 @@
                                         required" aria-required="true">
                                         {{__('messages.Content')}}
                                     </label>
-                                    <textarea id="editor1" name="content" rows="10" cols="80">This is my textarea
-                                        to be replaced with CKEditor.</textarea>
+                                    <textarea id="editor1" name="description" rows="10" cols="80"></textarea>
                                 </div>
                             </div>
                             <div class="tab-pane" id="tab_history">
@@ -54,7 +54,7 @@
                                         Title
                                     </label>
                                     <input class="form-control" placeholder="Name" name="meta_title" type="text"
-                                        id="meta_title">
+                                           id="meta_title">
                                 </div>
                                 <div class="form-group">
                                     <label for="name" class="control-label
@@ -63,7 +63,7 @@
                                         Keyword
                                     </label>
                                     <input class="form-control" placeholder="Name" name="meta_keyword" type="text"
-                                        id="meta_keyword">
+                                           id="meta_keyword">
                                 </div>
                                 <div class="form-group">
                                     <label for="name" class="control-label
@@ -72,7 +72,7 @@
                                         Description
                                     </label>
                                     <input class="form-control" placeholder="Name" name="meta_description" type="text"
-                                        id="meta_description">
+                                           id="meta_description">
                                 </div>
                             </div>
                         </div>
@@ -83,9 +83,9 @@
                         form-actions-default action-horizontal">
                         <div class="widget-title">
                             <h4>
-                                <span>
-                                    {{__('messages.Publish')}}
-                                </span>
+                            <span>
+                                {{__('messages.Publish')}}
+                            </span>
                             </h4>
                         </div>
                         <div class="widget-body">
@@ -103,7 +103,7 @@
                     </div>
                 </div>
             </div>
-        </form>
+            {!! Form::close() !!}
+        </div>
     </div>
-</div>
 @endsection
